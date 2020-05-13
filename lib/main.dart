@@ -60,20 +60,20 @@ class MyApp extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
                 Text(
-                  "Online",
+                  "Flutter",
                   style: greyStyle,
                 ),
                 Text(
-                  "Gambling",
+                  "Animation",
                   style: boldStyle,
                 ),
                 SizedBox(
                   height: 20.0,
                 ),
                 Text(
-                  "Temporibus autem aut\n"
-                  "officiis debitis aut rerum\n"
-                  "necessitatibus",
+                  "Flutter App using\n"
+                  "liquid swipe\n"
+                  "lottie Animations",
                   style: descriptionGreyStyle,
                 ),
               ],
@@ -83,13 +83,13 @@ class MyApp extends StatelessWidget {
       ),
     ),
     Container(
-      color: Color(0xFF55006c),
+      color: Color(0xFF00cc00),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
          
-          Image.asset("assets/img/secondImage.png",
+          Lottie.network("https://assets7.lottiefiles.com/packages/lf20_NjRqYM.json",
             height: 300,
              width: 500,),
           Padding(
@@ -98,20 +98,20 @@ class MyApp extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
                 Text(
-                  "Online",
+                  "Flutter",
                   style: whiteStyle,
                 ),
                 Text(
-                  "Gaming",
+                  "Animations",
                   style: boldStyle,
                 ),
                 SizedBox(
                   height: 20.0,
                 ),
                 Text(
-                  "Excepteur sint occaecat cupidatat\n"
-                  "non proident, sunt in\n"
-                  "culpa qui officia",
+                  "Flutter app using\n"
+                  "liquid swipe\n"
+                  "lottie Animations",
                   style: descriptionWhiteStyle,
                 ),
               ],
@@ -121,14 +121,14 @@ class MyApp extends StatelessWidget {
       ),
     ),
      Container(
-      color: Colors.orange,
+      color: Colors.lightBlueAccent,
       child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
           
-          Image.asset(
-            "assets/img/thirdImage.png",
+          Lottie.network(
+            "https://assets2.lottiefiles.com/datafiles/Hc0DflKIkYg1j3u/data.json",
             height: 300,
              width: 500,),
           Padding(
@@ -137,25 +137,25 @@ class MyApp extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
                 Text(
-                  "Online",
+                  "Flutter",
                   style: whiteStyle,
                 ),
                 Text(
-                  "Gambling",
+                  "Animations",
                   style: boldStyle,
                 ),
                 SizedBox(
                   height: 20.0,
                 ),
                 Text(
-                  "Temporibus autem aut\n"
-                  "officiis debitis aut rerum\n"
-                  "necessitatibus",
+                  "Flutter app using\n"
+                  "liquid swipe\n"
+                  "lottie animation",
                   style: descriptionWhiteStyle,
                 ),
               ],
             ),
-          )
+          ),
         ],
       ),
     ),
